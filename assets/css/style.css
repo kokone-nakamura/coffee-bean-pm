@@ -279,6 +279,8 @@ p{
 
 .discount{
     display: flex;
+    justify-content: center;
+    align-items: center;
     width:86%;
     height: 400px;
     position: relative;
@@ -288,23 +290,30 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    text-align: center;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .text1 p{
-    width: 250px;
-    height: 20px;
+    width: 100%;
+    max-width: 250px;
     color: #fff;
     font-size: 20px;
-    margin-top: 100px;
-    margin-left: 500px;
+    margin: 0.5em 0;
 }
 .text1 h3{
-    width: 450px;
-    height: 50px;
+    width: 100%;
+    max-width: 450px;
     color: #fff;
     font-size: 30px;
     text-transform: uppercase;
-    margin-left: 400px;
+    margin: 0.5em 0;
 }
 
 .discount a{
@@ -316,7 +325,6 @@ p{
     font-family: "Raleway",sans-serif;
     font-weight: 700;
     text-decoration: none;
-    margin-left: 540px;
 }
 
 .info2{
@@ -865,45 +873,65 @@ p{
     color: #9e8061;
 }
 
+/* === MENU SECTION === */
 
-.original-menu1,.original-menu2{
+.original-menu1, .original-menu2 {
     width: 85%;
-    height: 350px;
-    margin: 0 auto 0;
-}
-
-.original-menu1 h3,.original-menu2 h3{
-    width: 250px;
-    height: 50px;
-    font-size: 30px;
+    margin: 80px auto 0;
     text-align: center;
+  }
+  
+  .original-menu1 h3, .original-menu2 h3 {
+    font-size: 32px;
     color: #312a26;
     text-decoration: underline;
-}
-
-
-.menu-scroll{
-    overflow-x: scroll;
+    margin-bottom: 20px;
+  }
+  
+  .menu-scroll {
+    overflow-x: auto;
     white-space: nowrap;
     width: 100%;
-    height: 300px;
-}
-
-.menu1,.menu2,.menu3,.menu4,.menu5,.menu6,.menu7,.menu8,.menu9,.menu10{
+    height: auto;
+    padding: 10px 0;
+    scroll-behavior: smooth;
+  }
+  
+  .menu1, .menu2, .menu3, .menu4, .menu5,
+  .menu6, .menu7, .menu8, .menu9, .menu10 {
     display: inline-block;
-    width: 20%;
-    height: 200px;
-    margin-top: 30px;
-    margin-left: 30px;
-    border: 2px solid #312a26;
-}
-.menu-image1,.menu-image2,.menu-image3,.menu-image4,.menu-image5,.menu-image6,.menu-image7,.menu-image8,.menu-image9,.menu-image10{
+    width: 220px;
+    height: 220px;
+    margin: 0 15px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .menu1:hover, .menu2:hover, .menu3:hover,
+  .menu4:hover, .menu5:hover, .menu6:hover,
+  .menu7:hover, .menu8:hover, .menu9:hover,
+  .menu10:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+  }
+  
+  .menu-image1, .menu-image2, .menu-image3,
+  .menu-image4, .menu-image5, .menu-image6,
+  .menu-image7, .menu-image8, .menu-image9, .menu-image10 {
     width: 100%;
-    height: 200px;
+    height: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
+    border-radius: 12px;
+  }
+  
+
+
+.menu-scroll{
+ 
 
 .menu-image1{
     background-image: url(../images/menu1.jpg);
