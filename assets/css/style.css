@@ -1,0 +1,1067 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Oswald",sans-serif;
+}
+p{
+    font-family: "Raleway",sans-serif;
+}
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+/* (1) Header Area */
+.nav{
+    overflow: auto;
+    width: 85%;
+    margin: 1em auto;
+}
+.nav h1{
+    text-transform: uppercase;
+    width: 50%;
+    float: left;
+}
+.nav h1 a{
+    font-family: "Oswald",sans-serif;
+    color: #96746b;
+    text-decoration: none;
+}
+.nav ul{
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-top: 1em;
+}
+.nav ul li{
+    display: inline-block;
+    margin-left: 1em;
+}
+.nav ul a{
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    color: #312a26;
+    text-decoration: none;
+}
+
+/* (2) Banner Area*/
+.banner{
+    width: 100%;
+    height: 670px;
+    background-image: url(../images/banner-bg.jpg);
+    background-position: center;
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    top: 35%;
+    left: 7.5%;
+}
+.banner-text h2{
+    color: #c7a17a;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+.banner-text h2 span{
+    color: #96746b;
+}
+
+.banner-text p{
+    color: white;
+}
+
+.banner-text a{
+    display: inline-block;
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #312a26;
+    color: #fff;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* (3) Ads Area*/
+.ads{
+    width: 85%;
+    margin: 4em auto;
+    overflow: auto;
+}
+.ads-items{
+    width: 48.5%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 3%;
+    float: left;
+}
+.ads-item1{
+    background-image: url(../images/ads-img1.jpg);
+    margin-right: 3%;
+}
+.ads-item2{
+    background-image: url(../images/ads-img2.jpg);
+}
+.ads-text{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 45%;
+}
+.ads-text h3{
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #fff;
+    line-height: 1.2em;
+    text-shadow: 3px 3px 6px #312a26;
+}
+.ads-text a{
+    display: block;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 1em;
+    text-shadow: 3px 3px 5px #312a26;
+}
+/* (3)  */
+.info{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+.info p{
+    color: #96746b;
+}
+.info h3{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #96746b;
+    font-size: 30px;
+}
+.firstline{
+    display: flex;
+}
+.products1{
+    float: left;
+    width: 20.5%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.image1{
+    width: 100%;
+    height: 330px;
+    background-image: url(../images/merch-img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.products2{
+    float: left;
+    width: 20.5%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.image2{
+    width: 100%;
+    height: 330px;
+    background-image: url(../images/merch-img2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.products3{
+    float: left;
+    width: 20.5%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.image3{
+    width: 100%;
+    height: 330px;
+    background-image: url(../images/merch-img3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.products4{
+    float: left;
+    width: 20.5%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.image4{
+    width: 100%;
+    height: 330px;
+    background-image: url(../images/merch-img4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* (4) Disucount Are*/
+.name h2{
+    font-size: 17px;
+}
+.secondline{
+    display: flex;
+    /* margin: 0 auto; */
+}
+.products5{
+    float: left;
+    width: 20.5%;
+    height: 400px;
+    margin-left: 100px;
+}
+.image5{
+    width: 100%;
+    height: 330px;
+    background-image: url(../images/merch-img5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.products6{
+    float: left;
+    width: 20.5%;
+    height: 400px;
+    margin-left: 20px;
+}
+.image6{
+    width: 100%;
+    height: 330px;
+    background-image: url(../images/merch-img6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.products7{
+    float: left;
+    width: 20.5%;
+    height: 400px;
+    margin-left: 20px;
+}
+.image7{
+    width: 100%;
+    height: 330px;
+    background-image: url(../images/merch-img7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.products8{
+    float: left;
+    width: 20.5%;
+    height: 400px;
+    margin-left: 20px;
+}
+.image8{
+    width: 100%;
+    height: 330px;
+    background-image: url(../images/merch-img8.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.discount{
+    display: flex;
+    width:86%;
+    height: 400px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    background-image: url(../images/discount-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.text1 p{
+    width: 250px;
+    height: 20px;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+.text1 h3{
+    width: 450px;
+    height: 50px;
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 400px;
+}
+
+.discount a{
+    display: inline-block;
+    margin-top: 1em;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.427);
+    color: #312a26;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 540px;
+}
+
+.info2{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    margin-top: 50px;
+}
+.info2 p{
+    color: #96746b;
+}
+.info2 h3{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #96746b;
+    font-size: 30px;
+}
+
+.thirdline{
+    display: flex;
+}
+.products9{
+    float: left;
+    width: 20.5%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.image9{
+    width: 100%;
+    height: 330px;
+    background-image: url(../images/merch-img9.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.products10,.products11,.products12{
+    float: left;
+    width: 20.5%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.image10{
+    width: 100%;
+    height: 330px;
+    background-image: url(../images/merch-img10.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image11{
+    width: 100%;
+    height: 330px;
+    background-image: url(../images/merch-img11.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image12{
+    width: 100%;
+    height: 330px;
+    background-image: url(../images/merch-img12.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* (5) Ads Area 2*/
+.ads2{
+    width: 85%;
+    margin: 4em auto 0;
+    overflow: auto;
+}
+.ads-items2,.ads-items3{
+    width: 48.5%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 3%;
+    float: left;
+}
+.ads-item3{
+    background-image: url(../images/ads-img3.jpg);
+    margin-right: 3%;
+}
+.ads-item4{
+    background-image: url(../images/ads-img4.jpg);
+}
+.ads-text2,.ads-text3{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 45%;
+}
+.ads-text2 h3,.ads-text3 h3{
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #fff;
+    line-height: 1.2em;
+    text-shadow: 3px 3px 6px #312a26;
+}
+.ads-text2 a,.ads-text3 a{
+    display: block;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 1em;
+    text-shadow: 3px 3px 5px #312a26;
+}
+.ads3{
+    width: 85%;
+    margin: 0 auto;
+    overflow: auto;
+}
+.ads-item5{
+    background-image: url(../images/ads-img5.jpg);
+    margin-right: 3%;
+}
+.ads-item6{
+    background-image: url(../images/ads-img6.jpg);
+}
+
+/* (6) ditail */
+.info3{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    margin-top: 50px;
+}
+.info3 h3{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #96746b;
+    font-size: 30px;
+}
+
+.detail{
+    position: relative;
+    width:85%;
+    height: 500px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+.detail1{
+    width: 49%;
+    height: 500px;
+    background-color: #eeeeee;
+    float: left;
+    margin: 0 auto;
+    /* overflow: auto; */
+    margin-right: 7px;
+}
+
+.form1{
+    width: 100%;
+    height: 200px;
+    float: left;
+    padding: 20px;
+    font-weight: 550;
+}
+.form1 input{
+    width: 95%;
+    height: 30px;
+    padding: 15px;
+    margin: 5px;
+}
+
+.reservation p{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 15px;
+}
+.guest{
+    width: 100%;
+    padding: 20px;
+    font-weight: 550;
+}
+
+.guest select,.guest #day{
+    width: 95%;
+    height: 30px;
+    padding: 15px;
+    margin: 5px;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top:10px;
+} 
+
+.detail2{
+    width: 49%;
+    height: 500px;
+    background-color: #eeeeee;
+    float: left;
+    margin: 0 auto;
+    /* overflow: auto; */
+}
+.box{
+    width: 100%;
+    padding: 20px;
+    margin: 5px auto;
+    box-sizing: border-box;
+}
+
+.request{
+    font-weight: 550;
+}
+
+#comments{
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+   
+}
+
+.payment h3{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.paymentimage{
+    width: 100%;
+    max-width: 150px;
+    height: 30px;
+    background-image: url(../images/reservation-cards.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0 auto;
+}
+.payment p{
+    text-align: center;
+    font-weight: 550;
+    padding-top: 10px;
+}
+
+.form2{
+    width: 100%;
+    float: left;
+    font-weight: 550;
+}
+.form2 input{
+    width: 95%;
+    height: 30px;
+    margin: 5px;
+}
+#agree{
+   margin-top: 10px;
+}
+#send{
+    width: 95%;
+    height: 30px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 550;
+    background-color: #c7a17a;
+}
+
+/* add section 1 */
+.add-section1{
+    display: flex;
+    width:85%;
+    height: 450px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.bestseller h3{
+    width: 75%;
+    height: 70px;
+    margin: 50px 30px 0;
+    font-size: 50px;
+    color: #312a26;
+}
+
+.bestseller p{
+    width: 75%;
+    height: 70px;
+    margin: 10px 30px 0;
+    color: #312a26;
+}
+
+.bestseller1,.bestseller2{
+    float: left;
+    width: 35%;
+    height: 400px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.bestsellerimage1{
+    width: 100%;
+    height: 270px;
+    background-image: url(../images/bestseller1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border-radius: 5%; */
+}
+
+.bestsellerimage2{
+    width: 100%;
+    height: 270px;
+    background-image: url(../images/bestseller2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border-radius: 5%; */
+}
+
+.bestseller1 p,.bestseller2 p{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #312a26;
+}
+
+.bestseller1 a,.bestseller2 a{
+    width: 90px;
+    height: 30px;
+    background-color: #312a26a8;
+    border-radius: 40%;
+    text-align: center;
+    padding-top: 4px;
+    display: block;
+    margin-left: 130px;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 1em;
+    text-shadow: 3px 3px 5px rgba(23, 21, 20, 0.688);
+}
+.bestseller1 a:hover,.bestseller2 a:hover{
+    background-color: rgb(45, 25, 3);
+}
+
+/* add sections 2 */
+.info-coffee{
+    text-align: center;
+    margin-top: 90px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #96746b;
+    font-size: 30px;
+}
+
+
+.add-section2{
+    display: flex;
+    width:85%;
+    height: 400px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    background-image: url(../images/about-our-coffee.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.box-left{
+    width: 35%;
+    height: 400px;
+    padding: 30px;
+    color: #312a26;
+}
+
+.box-left h3{
+    text-align: right;
+    padding: 10px 0;
+
+}
+.box-left {
+    text-align: right;
+}
+
+.box-right{
+    width: 35%;
+    height: 400px;
+    margin-left: 30%;
+    padding: 200px 30px 0;
+    color: #312a26;
+}
+
+.box-right h3{
+    text-align: left;
+    padding: 10px 0; 
+}
+.box-right{
+    text-align: left;
+}
+
+/* add sections 3 */
+.gallery{
+    display: flex;
+    flex-direction: column;
+    width:85%;
+    height: 500px;
+    margin: 70px auto 0;
+    word-spacing: 2px;
+}
+
+.gallery-header{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.gallery h3{
+    font-size: 30px;
+    color: #312a26;
+    margin: 0;
+}
+.gallery-ig{
+    font-size: 17px;
+    color: #312a26;
+    text-decoration: none;
+    font-family: "Raleway",sans-serif;
+    border: 2px dashed #6f554d;
+    text-align: center;
+    margin-left: 250px;
+    padding: 6px 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.gallery-ig.gallery-ig:hover{
+    background-color: #6f554d;
+}
+
+.gallery-scroll{
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    height: 440px;
+    margin-top: 10px;
+}
+
+.ig-photo{
+    margin: 5px;
+}
+.gallery p{
+    margin-left: 10px;
+}
+
+.gallery1,.gallery2,.gallery3,.gallery4,.gallery5,.gallery6,.gallery7{
+    flex-shrink: 0;
+    width: 30%;
+    height: 375px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 2px solid #312a26;
+}
+.gallery-image1,.gallery-image2,.gallery-image3,.gallery-image4,.gallery-image5,.gallery-image6,.gallery-image7{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gallery-image1{
+    background-image: url(../images/gallery-image1.jpg);
+}
+.gallery-image2{
+    background-image: url(../images/gallery-image2.jpg);
+}
+.gallery-image3{
+    background-image: url(../images/gallery-image3.jpg);
+}
+.gallery-image4{
+    background-image: url(../images/gallery-image4.jpg);
+}
+.gallery-image5{
+    background-image: url(../images/gallrey-image5.png);
+}
+.gallery-image6{
+    background-image: url(../images/gallery-image6.png);
+}
+.gallery-image7{
+    background-image: url(../images/gallery-image7.jpg);
+}
+
+/* add section 4 */
+.location1,.location2{
+    width: 85%;
+    height: 370px;
+    margin: 50px auto 0;
+}
+
+.location-image1,.location-image2{
+    width: 45%;
+    height: 350px;
+    float: right;
+}
+
+.location-image1{
+    background-image: url(../images/location1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.location-image2{
+    background-image: url(../images/location2.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.location-info1,.location-info2{
+    width: 50%;
+    height: 200px;
+    padding: 40px;
+    margin-top: 70px;
+}
+
+.location-info1 h3,.location-info2 h3{
+    font-size: 40px;
+    text-align: center;
+    color: #564a43;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+.location-info1 table,.location-info2 table{
+    font-size: 20px;
+    font-family: "Raleway",sans-serif;
+    padding-top: 5px;
+    padding-left: 150px;
+    border-spacing: 5px;
+}
+
+.location-info1 strong,.location-info2 strong{
+    color: #9e8061;
+}
+
+
+.original-menu1,.original-menu2{
+    width: 85%;
+    height: 350px;
+    margin: 0 auto 0;
+}
+
+.original-menu1 h3,.original-menu2 h3{
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: #312a26;
+    text-decoration: underline;
+}
+
+
+.menu-scroll{
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 100%;
+    height: 300px;
+}
+
+.menu1,.menu2,.menu3,.menu4,.menu5,.menu6,.menu7,.menu8,.menu9,.menu10{
+    display: inline-block;
+    width: 20%;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 2px solid #312a26;
+}
+.menu-image1,.menu-image2,.menu-image3,.menu-image4,.menu-image5,.menu-image6,.menu-image7,.menu-image8,.menu-image9,.menu-image10{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu-image1{
+    background-image: url(../images/menu1.jpg);
+}
+.menu-image2{
+    background-image: url(../images/menu2.jpg);
+}
+.menu-image3{
+    background-image: url(../images/menu3.jpg);
+}
+.menu-image4{
+    background-image: url(../images/menu4.jpg);
+}
+.menu-image5{
+    background-image: url(../images/menu5.jpg);
+}
+.menu-image6{
+    background-image: url(../images/menu6.jpg);
+}
+.menu-image7{
+    background-image: url(../images/menu7.jpg);
+}
+.menu-image8{
+    background-image: url(../images/menu2.jpg);
+}
+.menu-image9{
+    background-image: url(../images/menu9.jpg);
+}
+.menu-image10{
+    background-image: url(../images/menu10.jpg);
+}
+
+
+/* (7) Footer*/
+.footer{
+    width: 100%;
+    height: 400px;
+    clear: both;
+    position: relative;
+    top: 70px;
+    bottom: 0;
+    background-image: url(../images/footer-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-family: "Raleway",sans-serif;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.footer-box{
+    flex: 1 1 220px;
+    margin: 50px auto;
+}
+
+.footer-box h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.footer-box table td{
+    padding: 2px 10px 2px 0;
+}
+
+.footer-box p{
+    margin: 10px 0;
+}
+.footer-box b{
+    font-family:"Oswald",sans-serif;
+}
+
+.footer-box span{
+    color: #c7a17a;
+    font-size: 17px;
+}
+
+.search-bar{
+    display: flex;
+}
+
+.search-bar input{
+    width: 180px;
+    margin-right: 3px;
+    padding: 15px;
+    border: none;
+}
+
+.search-bar button{
+    width: 80px;
+    padding: 6px 10px;
+    background-color: #c7a17a;
+    border: none;
+    font-weight: 600;
+}
+
+.footer-bottom{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #0e0c0b;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+
+.logo{
+    font-size: 22px;
+    font-family: "Oswald",sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.image-fb{
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/icon-fb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-ig{
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/icon-ig.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.image-x{
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/icon-tw.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
