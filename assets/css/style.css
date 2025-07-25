@@ -429,15 +429,53 @@ p{
     line-height: 1.2em;
     text-shadow: 3px 3px 6px #312a26;
 }
-.ads-text2 a,.ads-text3 a{
-    display: block;
-    font-family: "Raleway",sans-serif;
-    font-weight: 700;
-    color: white;
-    text-transform: uppercase;
-    margin-top: 1em;
-    text-shadow: 3px 3px 5px #312a26;
+
+.ads-text2 a, .ads-text3 a,
+.ads-text5 a, .ads-text6 a {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 1em;
+  text-shadow: 3px 3px 5px #312a26;
+  position: relative;
+  overflow: hidden;
+  padding: 8px 16px;
+  border: 2px solid white;
+  border-radius: 4px;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
+
+.ads-text2 a::before, .ads-text3 a::before,
+.ads-text5 a::before, .ads-text6 a::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateX(-100%);
+  transition: transform 0.4s ease;
+  z-index: 0;
+}
+
+.ads-text2 a:hover::before, .ads-text3 a:hover::before,
+.ads-text5 a:hover::before, .ads-text6 a:hover::before {
+  transform: translateX(0);
+}
+
+.ads-text2 a:hover, .ads-text3 a:hover,
+.ads-text5 a:hover, .ads-text6 a:hover {
+  transform: scale(1.08);
+  color: #fff;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
+
+
 .ads3{
     width: 85%;
     margin: 0 auto;
